@@ -1,0 +1,23 @@
+<!--pages/cjcx/cjcx.wxml-->
+<view class='nev' bindtap='table_qh'>
+      <view>{{xq}}　△</view>
+</view>
+<view class='background' wx:if="{{zhezhao}}"><image src='../../images/xiaohuangren.png'></image>
+    <text>很抱歉,当前时间找不到你的成绩</text></view>
+<view class='xlk' wx:if="{{table}}">
+      <view wx:for="{{xn}}" bindtap='table_pd' data-text="{{item}}">{{item}}</view>
+</view>
+<view class="personal">
+      <view><text class='personal_1'>姓名</text><text class='personal_2'>{{grxx.xm}}</text></view>
+      <view class='personal_zhong'><text class='personal_1'>班级</text><text class='personal_2'></text>{{grxx.bjmc}}</view>
+      <view><text class='personal_1'>学院</text><text class='personal_2'>{{grxx.dwmc}}</text></view>
+</view>
+ <view class='{{css}}'> 
+   <view wx:for="{{xqfs}}" bindtap='xiangxi' data-text="{{item}}">
+    <text class='text_kcmc'>{{item.kcm}}</text>
+    <text class="{{item.cj<=39?'font_color_2':item.cj<60?'font_color_1':''}}" >{{item.cj}}</text>
+    <view class='youjiantou'>
+      <image  src='../../images/youjiantou.png' mode='aspectFit'></image>
+    </view>
+  </view>  
+</view>

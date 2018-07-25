@@ -1,0 +1,131 @@
+/* pages/cjcx/cjcx.wxss */
+Page{
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  /* text-align: center; */
+}
+.nev{
+  width: 100%;
+  height: 8%;
+  background-color:#ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.xlk{
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  top:8%;
+  background-color: rgba(255,255,255,1);
+}
+.xlk>view{
+  text-align: center;
+  padding: 0.8rem;
+  border-bottom: 1px solid #eae9e9
+}
+.nev_title{
+  width: 50%;
+   display: flex;
+  align-items: center;
+   justify-content: space-around;
+  height: 100%;
+  /* border-bottom: 2px solid #4b90c9; */
+}
+#nev_title{
+  border-bottom: 2px solid #4b90c9
+}
+.personal{
+  width: 90%;
+  height: 20%;
+  background-color: #ffffff;
+  margin-left: 5%;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.personal>view{
+   border-bottom: 1px solid #eae9e9;
+   height: 33.3%;
+   display: flex;
+   align-items: center;
+}
+
+.personal_1{
+ margin-left: 0.5rem;
+ color: #919191;
+}
+.personal_2{
+  margin-left: 0.5rem;
+  font-weight: lighter ;
+}
+.data{
+  width: 90%; 
+  background-color: #ffffff;
+  margin-left: 5%;
+  margin-top: 0.5rem;
+}
+.data1{
+  width: 90%; 
+  background-color: #ffffff;
+  margin-left: 5%;
+  margin-top: 0.5rem;
+  /* height: 65%; */
+  /* margin-bottom: 1rem; */
+}
+.data>view{
+  border-bottom: 1px solid #eae9e9;
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.data1>view{
+  border-bottom: 1px solid #eae9e9;
+  padding: 0.5rem 0;
+  margin-left: 5%; 
+  display: flex;
+  justify-content: space-between;
+}
+.font_color_1{
+  color: orange;
+}
+.font_color_2{
+  color: red;
+}
+.background{
+  margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    top:8%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #ffffff;
+}
+.background>image{
+    width: 100%;
+    margin-top: 30%;
+}
+.background>text{
+  color: green;
+}
+/* 课程名称 */
+.text_kcmc{
+  width: 13rem;
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+/* 右箭头 */
+.youjiantou, .youjiantou>image{
+    width: 1.2rem;
+    height: 1.2rem;
+}

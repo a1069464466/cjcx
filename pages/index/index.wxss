@@ -1,0 +1,108 @@
+Page{
+  width: 100%;
+  height: 100%;
+}
+.box{
+  width: 100%;
+  height: 100%;
+
+}
+.box .bg{
+  /* width: 100%; */
+  height: 100%;
+  width: 100%;
+}
+.bdform{
+
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  text-align: center; 
+  text-align: center;
+}
+.headtou{
+  height: 6rem;
+  width: 6rem;
+  margin-top: 2.5rem;
+}
+.bdform form{
+   display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-top: 3.5rem;
+}
+.bdform form .item{
+  width: 18rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+}
+.item_shang{
+  border-radius: 0.2rem 0.2rem 0 0 ;
+  border-bottom: 0.1rem solid #eeeeee;
+}
+.item_xia{
+  border-radius: 0rem 0rem 0.2rem  0.2rem ;
+}
+.bdform form .item view, .bdform form .item view image{
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 0.2rem;
+}
+.bdform form .item view image{
+  margin-top: 0.2rem;
+  width:1.2rem;
+  height: 1.2rem;
+}
+.bdform form .item input{
+  width: 13rem;
+   /* border: 1px solid;  */
+  /* margin-left: 1rem; */
+  /* border: 1px solid red; */
+  text-align: left;
+  padding: 0.5rem 0;
+}
+.bdform form button{
+  margin-top:   0.8rem;
+   font-size: 1rem; 
+  /* -webkit-transform: scale(1,1.2) */
+  /* font-weight: bold; */
+  background-color: #fd9476;
+  color: #fffffe;
+}
+.cuowu{
+  width: 90%;
+  height:50%;
+  position: absolute;
+  z-index: 101;
+  top: 30%;
+  margin-left: 5%;
+}
+.cuowu>image{
+  width: 100%;
+}
+.cuowu>button{
+  position:relative;
+  z-index: 102;
+  top: -25%;
+  width: 70%;
+  background-color: #4489ca;
+  color: beige;
+}
+.loginAnimation{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginAnimation image{
+  width: 80%;
+}

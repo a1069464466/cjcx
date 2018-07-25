@@ -1,0 +1,39 @@
+  
+<view class='box'>
+     <image class='bg' src='../../images/background.png' ></image> 
+</view>
+ <view class="cuowu" wx:if="{{cuowu}}">
+       <image src="../../images/cuowu.png"></image>
+       <button bindtap="cuowu_queding">确定</button>>
+ </view>
+ <view class='bdform'>
+    <image src='../../images/headtou.png' mode='aspectFit' class='headtou'></image>
+     <form bindsubmit="denglu">
+        <view class='item item_shang'>
+          <view>
+            <image src='../../images/xhid.png'mode="aspectFit"></image>
+          </view>
+          <input name='name' placeholder='学号' maxlength='10' ></input>
+        </view>
+        <view class='item item_xia'>
+          <view>
+            <image src='../../images/xhid.png'mode="aspectFit"></image>
+          </view>
+          <input name='mm' placeholder='身份证后六位' maxlength='6'></input>
+        </view>
+        <button formType="submit" bindtap='loadingTap'>提交</button>
+    </form> 
+  <loading hidden="{{loadingHidden}}">
+        加载中...
+  </loading>
+  <view class='loginAnimation'>
+    <image src='../../images/login.gif'></image>
+  </view>
+
+
+
+
+
+
+
+</view> 

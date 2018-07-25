@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/cjcx/cjcx",
+    "pages/cjfl/cjfl"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3584c4",
+    "navigationBarTitleText": "成绩查询",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,18 @@
+<view class="cj">
+      <text class='km'>{{fs.kcm}}</text>
+      <text class='fs'>{{fs.cj}}</text>
+      <image src='{{css}}'></image>
+</view>
+<view class='xinxi'>
+    <text>学年：{{fs.xnxqdm}}</text>
+    <text>课程性质：{{fs.kclb}}</text>
+    <text>考试成绩：{{fs.cj}}</text>
+    <text>所得学分：{{fs.xf}}</text>
+    <text>所得绩点：{{fs.kcjd}}</text>
+</view>
+<view class='image1_1'>
+      <image src='{{images}}'></image>
+</view>
+<view class='image2_1'>
+    <image src='../../images/cjxqy2.png'></image>
+</view>
